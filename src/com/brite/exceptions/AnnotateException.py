@@ -4,6 +4,8 @@ def handleException(func):
             func()
         except ZeroDivisionError:
             print('There was a zero division error')
+        except Exception:
+            print('Some Thing went wrong')
     return exceptionWrapper
 
 

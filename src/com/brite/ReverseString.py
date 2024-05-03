@@ -1,5 +1,5 @@
 def isPalindrom(string):
     abc = string[::-1]
-    print(string == abc)
+    print(abc)
 
 isPalindrom('02221')

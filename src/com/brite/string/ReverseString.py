@@ -1,12 +1,17 @@
 name = 'JOHNSMITH'
 print(name)
 
-print('***reverse the given string***')
+print('***reverse string***')
 
 rerversestring = name[::-1]
 print(rerversestring)
 
-## compare strings
+
+def reverseString(string):
+    rev = string[::-1]
+    print(rev)
+
+reverseString('02221')
 
 
 

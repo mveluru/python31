@@ -40,6 +40,10 @@ for item in nums:
         new_nums.append(item)
 print(len(new_nums))
 
+print("*sorted*")
+print(sorted(nums))
+
+
 nums = [0, 1, 2, 2, 3, 0, 4, 2]
 print(list(set(nums)))
 print(int(math.pow(10, 2)))

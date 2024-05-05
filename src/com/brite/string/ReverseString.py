@@ -8,10 +8,9 @@ print(rerversestring)
 
 
 def reverseString(string):
-    rev = string[::-1]
+    if len(string) > 1:
+        rev = string[::-1]
     print(rev)
 
+
 reverseString('02221')
-
-
-

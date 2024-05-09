@@ -3,3 +3,5 @@ def isPalindrom(string):
     print(abc)
 
 isPalindrom('02221')
+
+

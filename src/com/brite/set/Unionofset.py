@@ -1,19 +1,18 @@
 class Union:
-    info = "Dog has four legs and its Barks"
 
-    def __init__(self, name, age):
+    def __init__(self):
         self.unionofset = set()
-        self.name = name
-        self.age = age
 
-    def unionset(self, s):
-        for i in s:
+    def unionset(self, listset):
+        for i in listset:
             self.unionofset = self.unionofset.union(i)
         return self.unionofset
 
 
+myunion = Union()
+
+
 listset = [{1, 2, 3, 4}, {4, 5, 6, 7}, {4, 5, 6, 7}, {1, 2, 3, 4}, {4, 5, 6, 7}, {4, 5, 6, 7}]
-myunion = Union("puppy", 1)
-newset = set()
 newset = myunion.unionset(listset)
+
 print(str(newset))
